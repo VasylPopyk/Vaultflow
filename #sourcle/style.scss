@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0B0121;
+    &.locked{overflow-y: hidden;}
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0px auto;
+    padding: 0px 3px;
+    @media(max-width :1200px){width: 1050px;}
+    @media(max-width :1050px){width: 990px;}
+    @media(max-width :990px){width: 850px;}
+    @media(max-width :850px){width: 100%;}
+}
+.section{
+    margin: 50px auto;
+}
+.wrapper{
+    @import "header";
+    .page{
+        margin-top: 50px;
+        @import "banner";
+        @import "teams";
+        @import "features";
+    }
+    @import "footer";
+}

@@ -1,0 +1,23 @@
+.teams{
+    padding: 30px 0;
+    flex-direction: column;
+    h3{
+        font-size: 20px;
+        color: #ECECEC;
+        font-weight: 300;
+        font-family: 'Montserrat';
+        line-height: 130%;
+        text-align: center;
+    }
+    .teams_content{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 5px;
+        flex-wrap: wrap;
+        img{
+            margin: 24px;
+        }
+    }
+}
